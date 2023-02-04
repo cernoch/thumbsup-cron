@@ -22,7 +22,7 @@ services:
       - PGID=[GID_OF_GALLERY_FILES]
 ```
 
-And the just `docker compose --detach`.
+And the just `docker compose up --detach`.
 
 - Windows: Feel free to delete the `environment` section.
 - Linux: Don't forget that `[PATH_TO_THE_GALLERY]` must be writable by `[UID_OF_GALLERY_FILES]`!
