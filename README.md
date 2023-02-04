@@ -30,3 +30,5 @@ services:
 
 And the just `docker compose --detach`.
 
+Don't forget that `[PATH_TO_THE_GALLERY]` must be writable by `[UID_OF_GALLERY_FILES]`!
+
