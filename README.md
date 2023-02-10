@@ -34,3 +34,11 @@ And the just `docker compose up --detach`.
 ```
 $ docker build -t ghcr.io/cernoch/thumbsup-cron:latest https://github.com/cernoch/thumbsup-cron.git#main
 ```
+
+
+## How to release
+
+- Release commit is tagged as `v[MAJOR].[PATCH]`.
+- Backwards compatible changes may only bump the `PATCH` version.
+- When bumping the `PATCH` version, just tag the commit & push.
+- When bumping the `MAJOR` version, also update the `ghcr.io/cernoch/thumbsup-cron:[MAJOR]` tag in `.github/workflows/main.yml`.
