@@ -36,5 +36,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/cernoch/thumbsup-cron:1
+            ghcr.io/cernoch/thumbsup-cron:2
             ghcr.io/cernoch/thumbsup-cron:latest
